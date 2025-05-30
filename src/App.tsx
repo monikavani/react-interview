@@ -96,7 +96,7 @@ const router = createBrowserRouter([
     path: "/",
     element: (
       <div>
-        <h1>Welcome</h1>
+        <h1>Welcome to codafication world!</h1>
         <Link to="question/1">Begin</Link>
       </div>
     ),
