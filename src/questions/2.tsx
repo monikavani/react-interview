@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Two = () => {
+  const [visible, setVisible] = useState<boolean>(false);
   return (
     <div>
-      <button>Toggle</button>
-      <div>Toggle showing/hiding me</div>
+      <button onClick={() => setVisible(!visible) }>Toggle</button>
+      {visible && <div>Toggle showing/hiding me</div>}
     </div>
   );
 };

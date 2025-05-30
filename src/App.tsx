@@ -98,6 +98,12 @@ const router = createBrowserRouter([
       <div>
         <h1>Welcome to codafication world!</h1>
         <Link to="question/1">Begin</Link>
+        <One/>
+        <Two/>
+        <Three/>
+        <Four />
+        <Five/>
+        <Six/>
       </div>
     ),
   },
